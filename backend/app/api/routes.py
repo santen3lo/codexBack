@@ -88,3 +88,4 @@ async def health_check():
         "proxy_base_url": settings.AI_PROXY_BASE_URL,
         "token_configured": bool(settings.AI_PROXY_TOKEN),
     }
+

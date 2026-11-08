@@ -71,3 +71,4 @@ def annotate_comparison_badges(metrics_list: List[ModelMetrics]) -> List[ModelMe
             m.is_cheapest = True
 
     return metrics_list
+

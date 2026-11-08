@@ -36,3 +36,4 @@ class SingleResponse(BaseModel):
 
 class CompareResponse(BaseModel):
     results: List[SingleResponse]
+

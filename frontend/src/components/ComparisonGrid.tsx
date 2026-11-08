@@ -84,3 +84,4 @@ export const ComparisonGrid: React.FC<ComparisonGridProps> = ({
     </div>
   );
 };
+

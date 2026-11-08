@@ -41,3 +41,4 @@ export const ErrorCard: React.FC<ErrorCardProps> = ({
     </div>
   );
 };
+

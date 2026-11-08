@@ -46,3 +46,4 @@ export const ThinkingBlock: React.FC<ThinkingBlockProps> = ({
     </div>
   );
 };
+

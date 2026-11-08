@@ -44,3 +44,4 @@ export type StreamEvent =
   | { type: 'error'; model_id: string; message: string }
   | { type: 'summary_badges'; fastest_model_id?: string; cheapest_model_id?: string }
   | { type: 'done' };
+

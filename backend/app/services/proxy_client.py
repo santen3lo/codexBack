@@ -239,3 +239,4 @@ async def stream_from_proxy(
                 yield event
             return
         yield ProxyStreamEvent("error", message=f"Не удалось подключиться к сервису моделей: {str(e)}")
+

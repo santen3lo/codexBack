@@ -98,3 +98,4 @@ def test_token_and_cost_calc():
     assert cost > 0
     # 1000 * 0.20 / 1M + 2000 * 0.40 / 1M = 0.0002 + 0.0008 = 0.001
     assert abs(cost - 0.001) < 1e-5
+

@@ -97,3 +97,4 @@ export const MobileTabs: React.FC<MobileTabsProps> = ({
     </div>
   );
 };
+

@@ -70,3 +70,4 @@ export const InputBar: React.FC<InputBarProps> = ({ onSubmit, isLoading }) => {
     </div>
   );
 };
+

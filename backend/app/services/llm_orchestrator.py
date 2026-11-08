@@ -196,3 +196,4 @@ async def compare_sync(
         ))
 
     return CompareResponse(results=results)
+
