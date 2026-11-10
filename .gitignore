@@ -21,9 +21,12 @@ yarn-error.log*
 
 # Environment & Secrets (Crucial: per requirements, token never gets committed)
 .env
-.env.local
-.env.*.local
+.env*
+!.env.example
+*.env
 backend/.env
+backend/.env*
+!backend/.env.example
 
 # IDE & OS
 .DS_Store

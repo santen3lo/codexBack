@@ -24,3 +24,4 @@ run-dev:
 # Запуск в Docker контейнере
 docker-up:
 	docker compose up --build
+
